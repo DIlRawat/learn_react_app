@@ -1,0 +1,35 @@
+node_modules/
+
+# Node.js and Vite (React) related
+node_modules/
+dist/
+.vite/
+*.log
+*.env
+
+# Local environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environment folders (for FastAPI backend)
+venv/
+
+# IDE and editor related (VS Code, PyCharm, etc.)
+.vscode/
+
+# VS Code settings
+.vscode/
+

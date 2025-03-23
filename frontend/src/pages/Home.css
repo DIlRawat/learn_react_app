@@ -1,0 +1,54 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0rem;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+
+  .learn-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #4CAF50;
+    transition: 0.3s ease;
+    margin: 1rem;
+  }
+  
+  .learn-button:hover {
+    background-color: #225925; /* Darker green on hover */
+    color: white;
+    transform: scale(1.05);
+    border: 1px solid white;
+  }
+  
+  /* Optional: Add some responsive styling */
+  @media (max-width: 400px) {
+    .learn-button {
+      width: 100%; /* Make buttons full width on smaller screens */
+    }
+  }
+
+  .home-info{
+    box-shadow: rgb(255 255 255 / 50%) 0px 7px 29px 0px;
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: #021b1bd6;
+  }
