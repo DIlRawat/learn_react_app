@@ -11,8 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 # Serve static audio files
-app.mount("/audio", StaticFiles(directory="audio_files"), name="audio")
-
+# app.mount("/audio", StaticFiles(directory="audio_files"), name="audio")
 
 # Allow CORS for all domains
 app.add_middleware(
@@ -22,7 +21,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 class base64ImgStr(BaseModel):
     img_str : str
