@@ -3,14 +3,9 @@ Flexbox is used to make it responsive to the devices of different sizes.
 Sound is also added with the help of speechsynthesis web api.
 User can go back and forth between the letters and numbers.
 
-Here is what I had before with HTML, CSS and JS: https://dilrawat.github.io/.
-
-I just did everything again using React
-
 Cr for sketchbox: https://zipso.net/a-simple-touchscreen-sketchpad-using-javascript-and-html5/
 
-
-Backend
+-> Backend
 1. Activate virtual environment in the backend directory.
 Ex: python3.10 -m venv venv
 
@@ -21,9 +16,15 @@ Then install requirements: bash requirement.txt
 
 To run the backend: fastapi dev main.py
 
-Frontend
+-> Frontend
 npm install
 
 npm run dev
 
+Here is the UI: 
 
+![Learnapphome](https://github.com/user-attachments/assets/5db0b464-cbae-48bc-948a-5afc3c2f7fd8)
+
+![learnabc](https://github.com/user-attachments/assets/2e4339ea-1bc8-4f1f-8053-6e9a9c849468)
+
+![learnapp123](https://github.com/user-attachments/assets/b828fed5-dad6-4200-bb9d-2be1d089211f)
