@@ -1,30 +1,64 @@
-With a simple responsive user interface to learn how to write alphabets and numbers.
-Flexbox is used to make it responsive to the devices of different sizes.
-Sound is also added with the help of speechsynthesis web api.
-User can go back and forth between the letters and numbers.
+Alphabet & Number Learning App
+A simple responsive web app to help users learn how to write alphabets and numbers. Built with React for the frontend and FastAPI for the backend.
+Users can draw letters and numbers on a touchscreen-friendly sketchpad.
+Responsive layout using Flexbox ensures it works on devices of different sizes.
+Sound feedback is provided using the SpeechSynthesis Web API.
+Users can navigate back and forth between letters and numbers.
+Previous version: HTML, CSS, JS version
+Sketchpad reference: A simple touchscreen sketchpad
 
-Cr for sketchbox: https://zipso.net/a-simple-touchscreen-sketchpad-using-javascript-and-html5/
+Table of Contents
+Demo
+Features
+Technologies
+Setup & Installation
 
--> Backend
-1. Activate virtual environment in the backend directory.
-Ex: python3.10 -m venv venv
+Demo
+Add a GIF or screenshot of your app here.
 
-Once the venv is created activate the virtual environment.
-From backend directory: source venv/bin/activate
+Features
+Touchscreen-friendly sketchpad to write letters and numbers.
+Audio feedback using browser speech synthesis.
+Responsive layout using Flexbox.
+Navigate forward and backward through letters and numbers.
 
-Then install requirements: bash requirement.txt
+Technologies
+Frontend: React, JavaScript, CSS (Flexbox)
+Backend: FastAPI, Python 3.10 Above
+Others: Uvicorn (ASGI server), SpeechSynthesis Web API
 
-To run the backend: fastapi dev main.py
+Setup & Installation
 
--> Frontend
+Backend
+Go to the backend folder:
+cd backend
+
+Create a virtual environment (if not already created):
+python3.13 -m venv venv --upgrade-deps
+
+Activate the virtual environment:
+source venv/bin/activate
+
+Install dependencies:
+pip install -r requirements.txt
+
+Run the backend:
+uvicorn main:app --reload
+
+or, if fastapi-cli is installed:
+fastapi dev main.py
+
+Frontend
+Go to the frontend folder:
+cd frontend
+
+Install dependencies:
 npm install
 
+Start the development server:
 npm run dev
 
-Here is the UI: 
+The app should now be running at http://localhost:5173 (or the port specified by Vite).
 
-![Learnapphome](https://github.com/user-attachments/assets/5db0b464-cbae-48bc-948a-5afc3c2f7fd8)
-
-![learnabc](https://github.com/user-attachments/assets/2e4339ea-1bc8-4f1f-8053-6e9a9c849468)
 
 ![learnapp123](https://github.com/user-attachments/assets/b828fed5-dad6-4200-bb9d-2be1d089211f)
